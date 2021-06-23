@@ -15,12 +15,20 @@ html {
 
 html.dark {
     --primary-color: #fff;
-    --seconday-color: #000;
+    --seconday-color: #333;
 }
 
 html.dark {
     background-color: #111;
     color: var(--primary-color);
+}
+
+html.dark button {
+    color: #000;
+}
+
+html.dark .date .circle {
+    color: #000;
 }
 
 body {
