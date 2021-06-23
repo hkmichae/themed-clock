@@ -27,7 +27,7 @@ html.dark button {
     color: #000;
 }
 
-html.dark .date .circle {
+html.dark .circle {
     color: #000;
 }
 
@@ -77,6 +77,7 @@ body {
     height: 65px;
     width: 3px;
     transform-origin: bottom center;
+    transition: all 0.5s ease-in;
 }
 
 .needle.hour {
@@ -131,8 +132,8 @@ body {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border-radius: 50%;
-    height: 22px;
-    width: 22px;
+    height: 25px;
+    width: 25px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
